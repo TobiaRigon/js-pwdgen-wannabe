@@ -11,4 +11,6 @@ const userColor = prompt("Il tuo colore preferito");
 
 
 // nomecognomecolorepreferito23
-document.getElementById('my_password').innerHTML="La tua nuova password è : " + userName + userSurname + userColor + "23";
+// document.getElementById('my_password').innerHTML="La tua nuova password è : " + userName + userSurname + userColor + "23";
+
+document.getElementById('my_password').innerHTML=`La tua nuova password è :   ${userName}${userSurname}${userColor}23`;
